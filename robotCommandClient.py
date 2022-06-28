@@ -19,7 +19,7 @@ class RobotCommandClient():
     update_thread.start()
 
 
-    HOST = "192.168.209.242"
+    HOST = "192.168.209.21"
     PORT = 6666
 
     client_socket = socket.socket()

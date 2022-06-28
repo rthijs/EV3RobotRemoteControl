@@ -5,7 +5,7 @@ import json
 from inputs import get_gamepad
 
 def run_server():
-    HOST = "192.168.209.242" #socket.gethostname()
+    HOST = "192.168.209.21" #socket.gethostname()
     PORT = 6666
 
     EVENTS_TO_SEND = ("ABS_Y", "ABS_RY")
